@@ -46,3 +46,30 @@ console.log(type); // Output: number
 const myArray = [1, 2, 3, 4, 5];
 // Gli array in javascript permettono di salvare all'interno qualsiasi tipo di dato
 const myArray2 = [1, "stringa", true, null, undefined, { name: "Mario" }];
+// Gli array possono contenere all'interno altri array
+const myArray3 = [1, 2, 3, [4, 5, 6], 7, 8, 9];
+// Come già visto, è possibile accedere ad un elemento specifico all'interno di un array tramite l'indice
+myArray[0]; // 1
+myArray[1]; // 2
+// Esistono dei metodi degli array che permettono di inserire, eliminare o modificare un elemento all'interno di un array
+// push(): aggiunge un elemento all'interno dell'array
+// pop(): rimuove l'ultimo elemento dell'array
+// shift(): rimuove il primo elemento dell'array
+// unshift(): aggiunge un elemento all'inizio dell'array
+// splice(): rimuove o aggiunge un elemento all'interno dell'array
+// slice(): restituisce una copia di una parte dell'array
+// concat(): unisce due o più array
+// join(): unisce tutti gli elementi di un array in una stringa
+// reverse(): inverte l'ordine degli elementi di un array
+
+myArray.push(6); // [1, 2, 3, 4, 5, 6]
+myArray.pop(); // [1, 2, 3, 4, 5]
+myArray.shift(); // [2, 3, 4, 5]
+myArray.unshift(1); // [1, 2, 3, 4, 5]
+myArray.splice(2, 1); // [1, 2, 4, 5] Il primo parametro indica l'indice a partire dal quale si vuole aggiungere o rimuovere un elemento, il secondo parametro indica il numero di elementi da rimuovere
+myArray.slice(2, 4); // [3, 4] il primo parametro indica l'indice a partire dal quale si vuole prendere un elemento, il secondo parametro indica il numero di elementi da prendere
+myArray.concat([6, 7, 8]); // [1, 2, 3, 4, 5, 6, 7, 8]
+myArray.join(", "); // "1, 2, 3, 4, 5"
+myArray.reverse(); // [5, 4, 3, 2, 1]
+
+// ESERCIZIO 7: Crea un array di numeri e stampa il numero più grande all'interno dell'array
