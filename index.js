@@ -72,4 +72,20 @@ myArray.concat([6, 7, 8]); // [1, 2, 3, 4, 5, 6, 7, 8]
 myArray.join(", "); // "1, 2, 3, 4, 5"
 myArray.reverse(); // [5, 4, 3, 2, 1]
 
-// ESERCIZIO 7: Crea un array di numeri e stampa il numero più grande all'interno dell'array
+// ESERCIZIO 7: inizializza un array con 5 elementi e utilizza il metodo push() per aggiungere un nuovo elemento all'array
+
+// ESERCIZIO 8: inizializza un array con 5 elementi e utilizza il metodo pop() per rimuovere l'ultimo elemento dell'array
+
+// ESERCIZIO 9: inizializza un array con 5 elementi e utilizza il metodo shift() per rimuovere il primo elemento dell'array
+
+// ESERCIZIO 10: inizializza un array con 5 elementi e utilizza il metodo unshift() per aggiungere un nuovo elemento all'inizio dell'array
+
+// ESERCIZIO 11: inizializza un array con 5 elementi e utilizza il metodo splice() per rimuovere l'elemento in posizione 2 dell'array
+
+// ESERCIZIO 12: inizializza un array con 5 elementi e utilizza il metodo slice() per prendere i primi 3 elementi dell'array
+
+// ESERCIZIO 13: inizializza 2 array con 5 elementi e utilizza il metodo concat() per unire due array
+
+// ESERCIZIO 14: inizializza un array con 5 elementi e utilizza il metodo join() per unire tutti gli elementi dell'array in una stringa
+
+// ESERCIZIO 15: inizializza un array con 5 elementi e utilizza il metodo reverse() per invertire l'ordine degli elementi dell'array
